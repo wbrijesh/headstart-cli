@@ -1,10 +1,10 @@
 {
-  "name": "packages-cli",
-  "version": "1.0.0",
-  "description": "",
+  "name": "headstart-cli",
+  "version": "0.0.1",
+  "description": "Quickly install useful packages and set them up in new or existing projects",
   "main": "index.js",
   "bin": {
-    "jumpstart": "./build/cli.js"
+    "headstart": "./build/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
