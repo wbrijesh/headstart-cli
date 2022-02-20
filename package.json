@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "jumpstart": "./build/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "pkg . --targets node14-macos-x64 --output hello"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +22,8 @@
   },
   "dependencies": {
     "yargs": "^17.3.1"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js"
   }
 }
